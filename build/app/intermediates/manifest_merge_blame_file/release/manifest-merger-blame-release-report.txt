@@ -1,0 +1,197 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.assigment.solstice_assigment"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:2:5-70
+11-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:2:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:3:5-66
+12-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:3:22-64
+13
+14    <queries>
+14-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:4:5-8:15
+15        <intent>
+15-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:5:9-7:18
+16            <action android:name="android.speech.RecognitionService" />
+16-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:6:13-72
+16-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:6:21-69
+17        </intent>
+18    </queries>
+19
+20    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+20-->[:speech_to_text] /Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/build/speech_to_text/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-76
+20-->[:speech_to_text] /Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/build/speech_to_text/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-73
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.mlkit:translate:17.0.1] /Users/mtpc-449/.gradle/caches/transforms-3/e9c06db32404e91953584d123c96f994/transformed/jetified-translate-17.0.1/AndroidManifest.xml:7:5-79
+21-->[com.google.mlkit:translate:17.0.1] /Users/mtpc-449/.gradle/caches/transforms-3/e9c06db32404e91953584d123c96f994/transformed/jetified-translate-17.0.1/AndroidManifest.xml:7:22-76
+22
+23    <application
+24        android:name="android.app.Application"
+24-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:11:9-42
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:12:9-43
+27        android:label="solstice_assigment" >
+27-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:10:9-43
+28        <activity
+28-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:13:9-33:20
+29            android:name="com.example.assigment.solstice_assigment.MainActivity"
+29-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:14:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:18:13-163
+31            android:exported="true"
+31-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:15:13-36
+32            android:hardwareAccelerated="true"
+32-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:19:13-47
+33            android:launchMode="singleTop"
+33-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:16:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:17:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:20:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:25:13-28:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:26:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:27:15-52
+46
+47            <intent-filter>
+47-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:29:13-32:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:30:17-68
+48-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:30:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:31:17-76
+50-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:31:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:36:9-38:33
+58            android:name="flutterEmbedding"
+58-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:37:13-44
+59            android:value="2" />
+59-->/Users/mtpc-449/Documents/FlutterProjects/solstice_assigment/android/app/src/main/AndroidManifest.xml:38:13-30
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] /Users/mtpc-449/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-beta04] /Users/mtpc-449/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] /Users/mtpc-449/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-beta04] /Users/mtpc-449/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-beta04] /Users/mtpc-449/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-beta04] /Users/mtpc-449/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+67
+68        <service
+68-->[com.google.mlkit:vision-common:17.3.0] /Users/mtpc-449/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+69            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+69-->[com.google.mlkit:vision-common:17.3.0] /Users/mtpc-449/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:10:13-91
+70            android:directBootAware="true"
+70-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:17:13-43
+71            android:exported="false" >
+71-->[com.google.mlkit:vision-common:17.3.0] /Users/mtpc-449/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:11:13-37
+72            <meta-data
+72-->[com.google.mlkit:vision-common:17.3.0] /Users/mtpc-449/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+73                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+73-->[com.google.mlkit:vision-common:17.3.0] /Users/mtpc-449/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.mlkit:vision-common:17.3.0] /Users/mtpc-449/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+75            <meta-data
+75-->[com.google.mlkit:translate:17.0.1] /Users/mtpc-449/.gradle/caches/transforms-3/e9c06db32404e91953584d123c96f994/transformed/jetified-translate-17.0.1/AndroidManifest.xml:14:13-16:85
+76                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar"
+76-->[com.google.mlkit:translate:17.0.1] /Users/mtpc-449/.gradle/caches/transforms-3/e9c06db32404e91953584d123c96f994/transformed/jetified-translate-17.0.1/AndroidManifest.xml:15:17-126
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.mlkit:translate:17.0.1] /Users/mtpc-449/.gradle/caches/transforms-3/e9c06db32404e91953584d123c96f994/transformed/jetified-translate-17.0.1/AndroidManifest.xml:16:17-82
+78            <meta-data
+78-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:20:13-22:85
+79                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+79-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:21:17-120
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:22:17-82
+81        </service>
+82
+83        <provider
+83-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:9:9-13:38
+84            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+84-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:10:13-78
+85            android:authorities="com.example.assigment.solstice_assigment.mlkitinitprovider"
+85-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:11:13-69
+86            android:exported="false"
+86-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:12:13-37
+87            android:initOrder="99" />
+87-->[com.google.mlkit:common:18.6.0] /Users/mtpc-449/.gradle/caches/transforms-3/acf40e695d83c341e35bbc6a7720a314/transformed/jetified-common-18.6.0/AndroidManifest.xml:13:13-35
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:18.1.0] /Users/mtpc-449/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:18.1.0] /Users/mtpc-449/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:18.1.0] /Users/mtpc-449/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:18.1.0] /Users/mtpc-449/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mtpc-449/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mtpc-449/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mtpc-449/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+97
+98        <service
+98-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mtpc-449/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+99            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+99-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mtpc-449/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+100            android:exported="false" >
+100-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mtpc-449/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+101            <meta-data
+101-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mtpc-449/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+102                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+102-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mtpc-449/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+103                android:value="cct" />
+103-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mtpc-449/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+104        </service>
+105        <service
+105-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/mtpc-449/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+106            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+106-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/mtpc-449/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+107            android:exported="false"
+107-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/mtpc-449/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+108            android:permission="android.permission.BIND_JOB_SERVICE" >
+108-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/mtpc-449/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+109        </service>
+110
+111        <receiver
+111-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/mtpc-449/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+112            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+112-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/mtpc-449/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+113            android:exported="false" />
+113-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/mtpc-449/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+114    </application>
+115
+116</manifest>
