@@ -10,7 +10,7 @@ RiverPod is state management tool and also reactive framework for flutter, we ha
 Clean architecture
 
 We have used Clean architecture to build this project, as it is more helpful to keep the code clean, Clean architecture contains three layers
-1) presentation layer => This layer contains the user interface components, such as widgets, screens, and views. 
+1)presentation layer => This layer contains the user interface components, such as widgets, screens, and views. 
 It is responsible for handling user interactions and rendering the UI.
 
 2)Domain Layer => The domain layer represents the core business logic of the application. It contains use cases, entities, and business rules.
